@@ -1,0 +1,113 @@
+body {
+    background-color: #2B292E;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: #6F439C;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+h3 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 73%;
+}
+
+nav {
+    background-color: #353239;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+input[type="text"] {
+    margin: 20px;
+    padding: 5px;
+}
+
+nav div {
+    width: 80%;
+}
+
+main div {
+    margin-top: 30px;
+    width: 75%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+button {
+    background-color: #6F439C;
+    border: 0;
+    color: white;
+    padding: 8px;
+    transition: background-color, 0.3s ease;
+}
+
+button:hover {
+    background-color: #5F3A87;
+}
+
+#toDos {
+    text-align: center;
+    width: 70%;
+}
+
+.toDos {
+    padding: 10px;
+    color: #fafafa;
+    cursor: pointer;
+    background: #353239;
+    border: 1px solid #423e47;
+    display: block;
+    transition: background .3s ease;
+    margin-left: 39%;
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.toDos:hover {
+    background: #3d3941;
+
+}
+
+a {
+    color: #aaa;
+    font-size: 15px;
+    align-self: center;
+}
+
+a:hover {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.done:before {
+    content: '';
+    position: absolute;
+    width: 42%;
+    padding-top: 9px;
+    border-bottom: 2px solid #F52D71;
+}
+
+.done {
+    opacity: 0.6;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="ToDo.css">
+    <script src="ToDo.js"></script>
+</head>
+<body>
+<header>
+    <h1>To-do App</h1>
+    <h3>What do you need to do?</h3>
+</header>
+<nav>
+    <div>
+        <input type="text" id="filter" oninput="filter()" placeholder="Filter todos">
+        <label>
+            <input type="checkbox" id="hide" onclick="filter()"> Hide completed
+        </label>
+    </div>
+</nav>
+<main>
+    <div id="toDos">
+        <h2>You have <span id="amount">0</span> <span id="number">todo</span> left</h2>
+    </div>
+    <div>
+        <input type="text" id="newToDo" placeholder="New Todo">
+        <button onclick="newToDo()">Submit</button>
+    </div>
+
+</main>
+</body>
+</html>
